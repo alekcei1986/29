@@ -3,6 +3,6 @@
 
 <ul>
 <% @barbers.each do |barber| %>
-  <li><%= barber.name %></li>
+  <a href= "/barber/<%= barber.id %>"><%= barber.name %></li>
 <% end %>
 </ul>
